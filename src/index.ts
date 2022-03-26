@@ -30,10 +30,9 @@ export interface Auth {
   user: string;
   pass: string;
 }
-export interface MailService {
-  send(mailData: MailData): Promise<boolean>;
-}
-export class SimpleMailService {
+export type Send = (mailData: MailData) => Promise<boolean>;
+export type SendMail = Send;
+export class MailService {
   constructor(public transporter: any) {
     this.send = this.send.bind(this);
   }

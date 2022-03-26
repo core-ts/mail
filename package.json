@@ -1,7 +1,7 @@
 {
   "name": "mail-core",
-  "version": "0.0.2",
-  "description": "smtp",
+  "version": "0.0.3",
+  "description": "mail",
   "main": "./lib/index.js",
   "types": "./src/index.ts",
   "scripts": {
@@ -20,6 +20,7 @@
     "url": "git@github.com/core-ts/mail"
   },
   "keywords": [
-    "mail"
+    "mail",
+    "smtp"
   ]
 }
