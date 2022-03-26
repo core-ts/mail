@@ -1,0 +1,25 @@
+{
+  "name": "mail-core",
+  "version": "0.0.2",
+  "description": "smtp",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "devDependencies": {
+    "tslint": "5.10.0",
+    "typescript": "^3.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/core-ts/mail"
+  },
+  "keywords": [
+    "mail"
+  ]
+}
